@@ -1,2 +1,2 @@
-#!/bin/bash
-chmod ugo=rx hello
+0;10;1c0;10;1c#!/bin/bash
+chmod o-w hello
