@@ -1,2 +1,2 @@
 #!/bin/bash
-mplay
+telnet towel.blinkenlights.nl
