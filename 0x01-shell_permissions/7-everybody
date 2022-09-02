@@ -1,2 +1,2 @@
-0;10;1c0;10;1c#!/bin/bash
-chmod o-w hello
+#!/bin/bash
+chmod o+rx hello
