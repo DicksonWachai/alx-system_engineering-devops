@@ -1,2 +1,2 @@
-#!/bin/bash
-cp /alx-system_engineering-devops/0x00-shell_basics/*.html /alx-system_engineering-devops
+0;10;1c0;10;1c#!/bin/bash
+cp *.html /alx-system_engineering-devops
