@@ -1,2 +1,2 @@
-0;10;1c0;10;1c#!/bin/bash
+#!/bin/bash
 printf "%.2f\n" $NUM
