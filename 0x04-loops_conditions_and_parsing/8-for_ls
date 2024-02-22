@@ -3,6 +3,6 @@
 # in a list format
 for file in *
 do
-	file_name=$(echo $file | cut -d'-' -f2)
-	echo $file_name
+	file_name=$(echo "$file" | cut -d'-' -f2)
+	echo "$file_name"
 done
