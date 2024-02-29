@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script takes in argument and pings it 5times
+# If no argument is passed it displays Usage: 5-is_the_host_on_the_network {IP_ADDRESS}
+if [ "$1" ]
+then
+	ping -c 5 "$1"
+else
+	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+fi
