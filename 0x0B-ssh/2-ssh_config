@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# This script connects ssh without a password
-Host ubuntu@34.239.107.128
-  IdentityFile ~/.ssh/school
-  PasswordAuthentication no
