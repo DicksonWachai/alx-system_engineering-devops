@@ -1,3 +1,4 @@
+# Creates a new file
 file { '/tmp/school':
   path    => '/tmp/school',
   owner   => 'www-data',
