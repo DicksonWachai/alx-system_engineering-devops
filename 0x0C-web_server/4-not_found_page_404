@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# 301 redirection - Moved Permanently
+sudo apt-get -y update
+sudo apt-get -y install nginx
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/custom_404.html
+sudo sed -i '/server_name _;/a \        error_page 404 /custom_404.html;\n        location = /custom_404.html {\n                internal;\n        }' /etc/nginx/sites-available/default
+sudo service nginx restart
