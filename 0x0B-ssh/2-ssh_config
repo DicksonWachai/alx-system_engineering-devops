@@ -1,0 +1,4 @@
+# Client Configuration File
+Host 100.27.4.140
+    User ubuntu
+    IdentityFile ~/.ssh/school
