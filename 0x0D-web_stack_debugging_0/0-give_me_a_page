@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Retrieve a page that contains `Hello Holberton`
+service apache2 status
+service apache2 start
